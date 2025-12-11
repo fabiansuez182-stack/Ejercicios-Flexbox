@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.vertical-menu {
+    list-style: none; 
+    padding: 0;
+    width: 100%;
+    max-width: 600px; 
+}
+
+.vertical-menu li {
+    background-color: #e6e6e6;     
+    display: flex;                 
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 25px 30px;        
+    margin-bottom: 10px;           
+}
+
+
+.menu-text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.btn-entrar {
+    background-color: white;
+    color: black;
+    text-decoration: none;   
+    padding: 10px 25px;    
+    font-weight: bold;       
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.btn-entrar:hover {
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+}
